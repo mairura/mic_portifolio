@@ -1,3 +1,70 @@
 .home_container {
-  background-image: url("/src/Rectangle\ 4.svg");
+  background-image: url("/src/assets/Rectangle3.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+.home_page {
+  max-width: 50vw;
+  margin: 0 auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  border: 1px solid red;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+  background: rgba(28, 22, 47, 0.2);
+  backdrop-filter: blur(12px);
+}
+.gradient1 {
+  position: absolute;
+  width: 261px;
+  height: 240px;
+  left: 306px;
+  top: -21px;
+
+  background: #bf51c6;
+  filter: blur(100px);
+}
+.gradient2 {
+  position: absolute;
+  width: 161px;
+  height: 140px;
+  left: 482px;
+  top: -21px;
+
+  background: #bf51c6;
+  filter: blur(100px);
+}
+.gradient3 {
+  position: absolute;
+  width: 161px;
+  height: 140px;
+  left: 661px;
+  top: -21px;
+
+  background: rgba(254, 95, 134, 0.72);
+  filter: blur(100px);
+}
+.gradient4 {
+  position: absolute;
+  width: 161px;
+  height: 140px;
+  left: 850px;
+  top: -21px;
+  background: #4d65fe;
+  filter: blur(100px);
 }
