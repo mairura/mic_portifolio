@@ -4,7 +4,6 @@ import { FaFigma } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -51,6 +50,43 @@ const Home = () => {
           </div>
           <div className="gradient3" />
           <div className="gradient4" />
+        </div>
+        <div className="about">
+          <div className="profile">
+            <img src="/src/assets/Polygon2.png" alt="polygon" />
+            <p>Michael Loupa</p>
+            <i>michaelloupa.me</i>
+          </div>
+          <div className="profile_details">
+            Lorem ipsum dolor sit amet consectetur. At non rutrum vitae platea
+            quam. A eget magna quis sed. Eget a maecenas felis ipsum. Mi commodo
+            viverra pharetra ornare adipiscing ridiculus id eu dui.
+          </div>
+        </div>
+        <div className="featured">
+          <h3>Featured Projects</h3>
+          <div className="cards">
+            <div className="card">
+              <img src="/src/assets/Rectangle1.png" alt="" />
+              <p>Watch Maker</p>
+              <p>Customize your watch design.</p>
+            </div>
+            <div className="card">
+              <img src="/src/assets/Rectangle1.png" alt="" />
+              <p>Watch Maker</p>
+              <p>Customize your watch design.</p>
+            </div>
+            <div className="card">
+              <img src="/src/assets/Rectangle1.png" alt="" />
+              <p>Watch Maker</p>
+              <p>Customize your watch design.</p>
+            </div>
+            <div className="card">
+              <img src="/src/assets/Rectangle1.png" alt="" />
+              <p>Watch Maker</p>
+              <p>Customize your watch design.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
