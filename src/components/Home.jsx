@@ -15,9 +15,12 @@ const Home = () => {
           <div className="details">
             <h3>Loupa</h3>
             <ul>
-              <li>About</li>
-              <li>Work</li>
-              <li>Blog</li>
+              <li>nft</li>
+              <li>about</li>
+              <li>work</li>
+              <li>blog</li>
+              <li>Tech&nbsp;Stack</li>
+              <li>more</li>
             </ul>
           </div>
           <div className="gradient2" />

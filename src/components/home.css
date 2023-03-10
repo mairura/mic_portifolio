@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
 .home_container {
   background-image: url("/src/assets/Rectangle3.svg");
   background-size: cover;
@@ -6,6 +7,7 @@
   color: #fff;
   height: 100vh;
   width: 100vw;
+  font-family: "Inter", sans-serif;
 }
 .home_page {
   max-width: 50vw;
@@ -23,11 +25,15 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   border-radius: 12px;
   background: rgba(28, 22, 47, 0.2);
   backdrop-filter: blur(12px);
+  padding: 1% 6%;
+}
+.header:hover {
+  cursor: pointer;
 }
 .gradient1 {
   position: absolute;
@@ -55,7 +61,6 @@
   height: 140px;
   left: 661px;
   top: -21px;
-
   background: rgba(254, 95, 134, 0.72);
   filter: blur(100px);
 }
@@ -67,4 +72,57 @@
   top: -21px;
   background: #4d65fe;
   filter: blur(100px);
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.details h3 {
+  background: linear-gradient(
+    259.84deg,
+    #fe5f86 3.17%,
+    #bf51c6 49.8%,
+    #4d65fe 98.42%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-decoration: underline 5px;
+}
+.details ul {
+  padding: 3%;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: row;
+}
+.details ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.details ul li:nth-child(1) {
+  background: linear-gradient(
+    259.84deg,
+    #fe5f86 3.17%,
+    #bf51c6 49.8%,
+    #4d65fe 98.42%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.socials ul {
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+}
+.socials ul li {
+  list-style: none;
+  padding-left: 10px;
+}
+.socials ul li a {
+  color: #fff;
 }
