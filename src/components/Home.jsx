@@ -4,6 +4,7 @@ import { FaFigma } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
+import Polygon from "../assets/Polygon2.svg";
 
 const Home = () => {
   return (
@@ -53,9 +54,11 @@ const Home = () => {
         </div>
         <div className="about">
           <div className="profile">
-            <img src="/src/assets/Polygon2.png" alt="polygon" />
-            <p>Michael Loupa</p>
-            <i>michaelloupa.me</i>
+            <img src="/assets/Polygon2.png" alt="polygon" />
+            <div className="profile_detail">
+              <p>Michael Loupa</p>
+              <i>michaelloupa.me</i>
+            </div>
           </div>
           <div className="profile_details">
             Lorem ipsum dolor sit amet consectetur. At non rutrum vitae platea
@@ -87,6 +90,24 @@ const Home = () => {
               <p>Customize your watch design.</p>
             </div>
           </div>
+        </div>
+        <div className="footer">
+          <div className="reach_out">
+            <h3>Reach Out</h3>
+            <p>Want to create something awesome? Or, you have any queries?</p>
+            <small>Drop a message through email or twitter.</small>
+            <div>
+              <a href="#">michaelloupa@gmail.com</a>
+            </div>
+          </div>
+          <div className="message_icons">
+            <img src="" alt="email" />
+            <img src="" alt="message" />
+          </div>
+        </div>
+        <div className="copyright">
+          <div>MICHAEL LOUPA</div>
+          <p>Stay Hydrated</p>
         </div>
       </div>
     </div>
