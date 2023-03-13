@@ -5,6 +5,8 @@ import { FaInstagram } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import Polygon from "../assets/Polygon2.svg";
+import Camera from "../assets/61-camera-gradient.gif";
+// import Watch from "../assets/Rectangle1.png";
 
 const Home = () => {
   return (
@@ -54,7 +56,7 @@ const Home = () => {
         </div>
         <div className="about">
           <div className="profile">
-            <img src="/assets/Polygon2.png" alt="polygon" />
+            <img src={Polygon} alt="polygon" />
             <div className="profile_detail">
               <p>Michael Loupa</p>
               <i>michaelloupa.me</i>
@@ -70,22 +72,32 @@ const Home = () => {
           <h3>Featured Projects</h3>
           <div className="cards">
             <div className="card">
-              <img src="/src/assets/Rectangle1.png" alt="" />
+              <img src={Camera} alt="" />
               <p>Watch Maker</p>
               <p>Customize your watch design.</p>
             </div>
             <div className="card">
-              <img src="/src/assets/Rectangle1.png" alt="" />
+              <img src={Camera} alt="" />
               <p>Watch Maker</p>
               <p>Customize your watch design.</p>
             </div>
             <div className="card">
-              <img src="/src/assets/Rectangle1.png" alt="" />
+              <img src={Camera} alt="" />
               <p>Watch Maker</p>
               <p>Customize your watch design.</p>
             </div>
             <div className="card">
-              <img src="/src/assets/Rectangle1.png" alt="" />
+              <img src={Camera} alt="" />
+              <p>Watch Maker</p>
+              <p>Customize your watch design.</p>
+            </div>
+            <div className="card">
+              <img src={Camera} alt="" />
+              <p>Watch Maker</p>
+              <p>Customize your watch design.</p>
+            </div>
+            <div className="card">
+              <img src={Camera} alt="" />
               <p>Watch Maker</p>
               <p>Customize your watch design.</p>
             </div>

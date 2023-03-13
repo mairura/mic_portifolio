@@ -167,7 +167,6 @@
   margin: 15px;
 }
 .featured {
-  border: 1px solid yellow;
   width: 100%;
 }
 .featured h3 {
@@ -182,4 +181,23 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background: linear-gradient(
+    211.92deg,
+    #010311 3.39%,
+    #081777 3.4%,
+    #37023a 97.43%
+  );
+  border-radius: 12px;
+  margin: 10px;
+  width: 11vw;
+  height: 22vh;
+}
+.card img {
+  height: 10vh;
+  width: 5vw;
+  margin: 20px;
 }
