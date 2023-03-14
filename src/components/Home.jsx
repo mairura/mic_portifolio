@@ -6,6 +6,8 @@ import { CiTwitter } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import Polygon from "../assets/Polygon2.svg";
 import Camera from "../assets/61-camera-gradient.gif";
+import Email from "../assets/Email.png";
+import Message from "../assets/Message.png";
 // import Watch from "../assets/Rectangle1.png";
 
 const Home = () => {
@@ -72,6 +74,16 @@ const Home = () => {
           <h3>Featured Projects</h3>
           <div className="cards">
             <div className="card">
+              <img src={Camera} alt="" className="camera" />
+              <p>Watch Maker</p>
+              <p>Customize your watch design.</p>
+            </div>
+            <div className="card">
+              <img src={Camera} alt="" />
+              <p>Watch Maker</p>
+              <p>Customize your watch design.</p>
+            </div>
+            <div className="card">
               <img src={Camera} alt="" />
               <p>Watch Maker</p>
               <p>Customize your watch design.</p>
@@ -113,13 +125,13 @@ const Home = () => {
             </div>
           </div>
           <div className="message_icons">
-            <img src="" alt="email" />
-            <img src="" alt="message" />
+            <img src={Email} alt="message" className="email" />
+            <img src={Message} alt="email" className="message" />
           </div>
         </div>
         <div className="copyright">
-          <div>MICHAEL LOUPA</div>
-          <p>Stay Hydrated</p>
+          <div className="name">MICHAEL LOUPA</div>
+          <p className="hydrated">Stay Hydrated</p>
         </div>
       </div>
     </div>

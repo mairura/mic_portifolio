@@ -20,7 +20,7 @@
   justify-content: center;
   align-items: center;
   padding: 2%;
-  border: 1px solid red;
+  height: 100%;
 }
 .header {
   width: 100%;
@@ -193,11 +193,88 @@
   );
   border-radius: 12px;
   margin: 10px;
-  width: 11vw;
-  height: 22vh;
+  width: 10vw;
+  height: 20vh;
+  padding: 1% 2%;
 }
 .card img {
   height: 10vh;
-  width: 5vw;
+  width: 6vw;
   margin: 20px;
+  background: #010311;
+  border-radius: 12px;
+}
+.card p {
+  font-size: 14px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 12vh;
+  border-radius: 15px;
+  margin: 3%;
+  background: #161931;
+  border-radius: 15px;
+}
+.reach_out {
+  width: 35vw;
+  text-align: left;
+  margin-right: 3%;
+  padding: 2% 4%;
+}
+.reach_out h3 {
+  font-style: normal;
+  font-size: 26px;
+  background: linear-gradient(
+    267.43deg,
+    #4d65fe 0%,
+    #65046b 45.61%,
+    #fe5f86 99.11%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.reach_out p {
+  font-size: 14px;
+}
+.reach_out small {
+  font-size: 10px;
+}
+.reach_out a {
+  letter-spacing: 1px;
+  margin: 1% 0;
+  text-decoration: none;
+}
+.reach_out a:hover {
+  text-decoration: underline;
+}
+.message_icons {
+  display: flex;
+}
+.email {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.message {
+  height: 6vh;
+  width: 3vw;
+  left: -5%;
+}
+.copyright {
+  margin-top: 2%;
+}
+.name {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(118, 113, 113, 0.49);
+}
+.hydrated {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 29px;
+  color: rgba(118, 113, 113, 0.49);
 }
