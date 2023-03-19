@@ -8,7 +8,7 @@ import Polygon from "../assets/Polygon2.svg";
 import Camera from "../assets/61-camera-gradient.gif";
 import Email from "../assets/Email.png";
 import Message from "../assets/Message.png";
-// import Watch from "../assets/Rectangle1.png";
+import Watch from "../assets/Rectangle1.png";
 
 const Home = () => {
   return (
@@ -74,44 +74,34 @@ const Home = () => {
           <h3>Featured Projects</h3>
           <div className="cards">
             <div className="card">
-              <img src={Camera} alt="" className="camera" />
+              <img src={Watch} alt="" className="camera" />
               <p>Watch Maker</p>
-              <p>Customize your watch design.</p>
+              <small>Customize your watch design.</small>
             </div>
             <div className="card">
-              <img src={Camera} alt="" />
+              <img src={Watch} alt="" />
               <p>Watch Maker</p>
-              <p>Customize your watch design.</p>
+              <small>Customize your watch design.</small>
             </div>
             <div className="card">
-              <img src={Camera} alt="" />
+              <img src={Watch} alt="" />
               <p>Watch Maker</p>
-              <p>Customize your watch design.</p>
+              <small>Customize your watch design.</small>
             </div>
             <div className="card">
-              <img src={Camera} alt="" />
+              <img src={Watch} alt="" />
               <p>Watch Maker</p>
-              <p>Customize your watch design.</p>
+              <small>Customize your watch design.</small>
             </div>
             <div className="card">
-              <img src={Camera} alt="" />
+              <img src={Watch} alt="" />
               <p>Watch Maker</p>
-              <p>Customize your watch design.</p>
+              <small>Customize your watch design.</small>
             </div>
             <div className="card">
-              <img src={Camera} alt="" />
+              <img src={Watch} alt="" />
               <p>Watch Maker</p>
-              <p>Customize your watch design.</p>
-            </div>
-            <div className="card">
-              <img src={Camera} alt="" />
-              <p>Watch Maker</p>
-              <p>Customize your watch design.</p>
-            </div>
-            <div className="card">
-              <img src={Camera} alt="" />
-              <p>Watch Maker</p>
-              <p>Customize your watch design.</p>
+              <small>Customize your watch design.</small>
             </div>
           </div>
         </div>
